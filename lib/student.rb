@@ -70,9 +70,7 @@ class Student
     self.first_X_students_in_grade_10(1)[0]
   end
 
-  def self.all_students_in_grade_X (num)
 
-  end
 
   end
 
