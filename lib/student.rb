@@ -11,7 +11,7 @@ class Student
   end
 
   def self.all
-    sql = 'SELECT * FROM students'
+    sql = 'SELECT * FROM students;'
 
     DB[:conn].execute(sql).map do |row|
       self.new_from_db(row)
